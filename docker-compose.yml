@@ -1,0 +1,33 @@
+# Local stack: Postgres plus the app. AI qualification uses Claude when ANTHROPIC_API_KEY is set
+# in your shell or .env, and the built-in demo rules otherwise.
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: leadflow
+      POSTGRES_PASSWORD: leadflow
+      POSTGRES_DB: leadflow
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U leadflow"]
+      interval: 2s
+      retries: 20
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8787:8787"
+    environment:
+      DATABASE_URL: postgres://leadflow:leadflow@db:5432/leadflow
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      AI_MODEL: ${AI_MODEL:-claude-haiku-5-5}
+      DAILY_AI_LIMIT: ${DAILY_AI_LIMIT:-2000}
+      CRON_SECRET: ${CRON_SECRET:-local-cron-secret}
+      WEBHOOK_SECRET: ${WEBHOOK_SECRET:-local-webhook-secret}
+
+volumes:
+  pgdata:
