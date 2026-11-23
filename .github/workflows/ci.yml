@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  # The integration tests share one Neon branch; run one workflow at a time.
+  group: ci-database
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # Integration tests need Postgres and are skipped when the secret is absent (e.g. forks).
+      DATABASE_URL: ${{ secrets.TEST_DATABASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Build (web app and Node bundle)
+        run: npm run build
+      - name: Migrate the test database
+        if: env.DATABASE_URL != ''
+        run: node scripts/migrate.mjs
+      - name: Unit and integration tests
+        # No AI key here, so qualification runs the deterministic demo rules.
+        run: npm test
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the image and smoke test it against Postgres
+        run: |
+          docker compose up -d --build --wait
+          curl -sf http://localhost:8787/api/health
+          curl -sf -c jar -o /dev/null http://localhost:8787/api/session
+          curl -sf -b jar http://localhost:8787/api/overview | grep -q brightside-solar
+      - if: always()
+        run: docker compose logs app && docker compose down -v
