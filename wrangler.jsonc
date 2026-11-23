@@ -1,0 +1,23 @@
+// One Worker serves the web app (static assets) and the API (/api/*).
+// Secrets, set with `wrangler secret put`: DATABASE_URL, ANTHROPIC_API_KEY, CRON_SECRET, WEBHOOK_SECRET.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "leadflow-ai",
+  "main": "api/src/worker.ts",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "web/dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  // Run next to the database (Neon, London) rather than next to each visitor.
+  "placement": { "mode": "targeted", "region": "aws:eu-west-2" },
+  "routes": [{ "pattern": "leadflow.buildwithanthony.com", "custom_domain": true }],
+  // Pooled, warm connections to Neon close to the database. Query caching is off: the app
+  // polls for fresh state (AI scores, sync progress).
+  "hyperdrive": [{ "binding": "HYPERDRIVE", "id": "4748c0d80d3b421581336184feeb84f8" }],
+  "observability": { "enabled": true },
+  "vars": { "AI_MODEL": "claude-haiku-5-5", "DAILY_AI_LIMIT": "2000" }
+}

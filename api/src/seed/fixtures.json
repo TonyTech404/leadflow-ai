@@ -1,0 +1,3503 @@
+{
+ "built_at": "2026-11-23T11:38:53.485Z",
+ "analyses": {
+  "bs04": {
+   "score": 84,
+   "intent": "ready_to_buy",
+   "summary": "Greater Manchester homeowner (WA4, in service area) with 4kW solar from 2015 wants to add a battery within 3 months, bills £100-£150 a month, south-facing roof.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "WA4 6PL"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Interested in",
+     "value": "Battery only"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Lead answered Homeowner: Yes."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "WA4 is within the WA postcode area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Bill is £100-£150 a month, at the threshold and within range."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline is within 3 months."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "Roof direction is south."
+    }
+   ],
+   "missing_info": [
+    "Whether the existing 4kW system is working and in good condition",
+    "Battery size and budget expectations",
+    "Whether the lead wants to finance over 5 years at 0%",
+    "Email address, as only phone was given"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Gareth now, confirm he owns the home and what usage he wants to cover, then answer his battery size question after checking the 2015 system's inverter compatibility and daily generation.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 4006,
+   "analysed_at": "2026-11-23T11:35:43.443Z"
+  },
+  "bs01": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Homeowner in SK4 with a £150-£250 monthly electricity bill, south-west roof, and wants solar plus battery within 3 months, asking about finance.",
+   "facts": [
+    {
+     "label": "Tenure",
+     "value": "Homeowner"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-west"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months (before spring)"
+    },
+    {
+     "label": "Interest",
+     "value": "Solar panels and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form answer confirms she is a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode SK4 is within the SK service area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Stated bill of £150-£250 a month is well above the threshold."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months, before spring."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "South-west falls within the qualifying directions."
+    }
+   ],
+   "missing_info": [
+    "Email address, which was not given, so phone is the only contact route",
+    "Whether the roof is suitable for panels and has no major shading or structural issues",
+    "Whether the 0% finance terms suit her and whether she wants a cash or finance option"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her straight away, confirm the free home survey and 0% over 5 years finance, and ask about roof condition and a survey date before spring.",
+    "within_hours": 1
+   },
+   "confidence": 0.9,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 5240,
+   "analysed_at": "2026-11-23T11:35:44.639Z"
+  },
+  "bs03": {
+   "score": 84,
+   "intent": "comparing_options",
+   "summary": "Greater Manchester homeowner (BL1) with a £100-£150 monthly bill, east-facing semi-detached roof, and a 3-6 month timeline, asking whether east-facing panels are worthwhile.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "BL1 5QE (within BL service area)"
+    },
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "East"
+    },
+    {
+     "label": "Timeline",
+     "value": "3-6 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Stated as a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "BL1 postcode is in the BL service area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Bill is £100-£150 a month, which meets the threshold."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline of 3-6 months fits, though the upper end is at the limit."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "East is an accepted direction, so the roof qualifies, though output is lower than south."
+    }
+   ],
+   "missing_info": [
+    "Roof size and shading, to confirm suitability",
+    "Whether they want battery storage as well as panels",
+    "Exact install timing within the 3-6 month window",
+    "Confirm they are ready to book a free survey"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Claire and open by confirming the free home survey and that east-facing roofs work well; ask about roof shading and when she wants to install.",
+    "within_hours": 2
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 5266,
+   "analysed_at": "2026-11-23T11:35:44.703Z"
+  },
+  "bs02": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Mohammed Iqbal, a homeowner in M20 with a five-bedroom house, two EVs and a south-facing roof, wants solar and battery as soon as possible and has a competing quote that can't fit before February.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "Five bedroom house, homeowner"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "Over £250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "As soon as possible; competitor quote could not fit before February"
+    },
+    {
+     "label": "Interested in",
+     "value": "Solar and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form states they are a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode M20 is in the M area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Stated bill is over £250 a month, well above the threshold."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Wants to install as soon as possible, though a rival quote is pending."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "Roof direction given as south."
+    }
+   ],
+   "missing_info": [
+    "Email address (none given, so phone is the only contact route)",
+    "Roof size and condition, and whether it suits panels",
+    "Preferred installation date and whether February is acceptable"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call now and open by confirming the south roof and the £250 monthly bill, then offer a free home survey at the earliest slot to beat the February quote.",
+    "within_hours": 1
+   },
+   "confidence": 0.9,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 5349,
+   "analysed_at": "2026-11-23T11:35:44.784Z"
+  },
+  "bs05": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Detached Sale homeowner wanting solar panels, battery and an EV charger installed within 3 months, with a south-east roof and a £150-£250 monthly electricity bill.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "Detached house in Sale"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-east"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Interested in",
+     "value": "Solar panels, battery storage and an EV charger"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Homeownership",
+     "impact": "positive",
+     "detail": "Form answer says they are a homeowner."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "Postcode M33 is in the M area and Sale is in Greater Manchester."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "Bill of £150-£250 a month is above the £100 threshold."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months, well inside the 6-month window."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "South-east roof falls within south, east or west."
+    }
+   ],
+   "missing_info": [
+    "Email address (none given, so phone is the only contact route)",
+    "Confirm the roof suits panels and the south-east orientation",
+    "Confirm the EV charger is wanted now or later",
+    "Preferred contact time"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Phone Priya Nair now, confirm the roof and the 3-month timeline, then book the free home survey; open by referring to the panels, battery and EV charger she asked about.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 5542,
+   "analysed_at": "2026-11-23T11:35:44.982Z"
+  },
+  "bs06": {
+   "score": 8,
+   "intent": "early_research",
+   "summary": "Renter in OL8 researching solar costs for a future purchase, with a bill of £75-£100, unknown roof direction and no near-term timeline.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "OL8 1HQ"
+    },
+    {
+     "label": "Homeowner",
+     "value": "No, rents"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£75-£100"
+    },
+    {
+     "label": "Timeline",
+     "value": "Just researching"
+    },
+    {
+     "label": "Roof direction",
+     "value": "Not sure"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "negative",
+     "detail": "Lead states they rent, so they fail the homeowner criterion."
+    },
+    {
+     "factor": "Lives in the service area",
+     "impact": "positive",
+     "detail": "OL8 is within the OL service area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "negative",
+     "detail": "Bill is £75-£100, which is below the threshold."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "negative",
+     "detail": "Only just researching, with no install plans stated."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "negative",
+     "detail": "Roof direction is not known."
+    }
+   ],
+   "missing_info": [
+    "Whether they plan to buy a home and when",
+    "Roof direction if they later become an owner"
+   ],
+   "next_action": {
+    "type": "nurture",
+    "detail": "Add to a nurture sequence with general solar cost information and ask them to get back in touch once they own a home; no call needed now.",
+    "within_hours": 168
+   },
+   "confidence": 0.85,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 3271,
+   "analysed_at": "2026-11-23T11:35:56.844Z"
+  },
+  "bs07": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Homeowner in SK7 with a £150-£250 monthly electricity bill and a south-facing roof, wants solar and battery as soon as possible, referred by a neighbour who had a Brightside install in the summer.",
+   "facts": [
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Interested in",
+     "value": "Solar and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form says they are a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode SK7 is in the SK service area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "positive",
+     "detail": "Stated bill is £150-£250 a month."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline given as as soon as possible."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "Roof direction given as south."
+    }
+   ],
+   "missing_info": [
+    "Email address, so the team can follow up in writing",
+    "Confirmation of the referring customer's name or address for the referral record",
+    "Roof condition and suitability for a survey",
+    "Preferred budget or whether they want 0% finance"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Margaret Holt on the phone number given, mention the neighbour at number 14, and book a free home survey.",
+    "within_hours": 2
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 8119,
+   "analysed_at": "2026-11-23T11:36:01.693Z"
+  },
+  "bs08": {
+   "score": 12,
+   "intent": "not_a_fit",
+   "summary": "Homeowner with a south-facing roof, £100-£150 monthly bill and a 3-month timeline, but based in Edinburgh (EH postcode), outside the Greater Manchester service area.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "EH10 5LT (Edinburgh)"
+    },
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Service area",
+     "impact": "negative",
+     "detail": "Postcode EH10 is in Edinburgh, outside the M, SK, WA, BL, OL, WN service areas. The lead asks whether Brightside covers Edinburgh, which confirms they are not local."
+    },
+    {
+     "factor": "Homeownership",
+     "impact": "positive",
+     "detail": "Form says they are a homeowner, which meets a qualification criterion."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "Bill of £100-£150 a month meets the over £100 criterion."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "South-facing roof meets the criterion."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months, inside the 6-month window."
+    }
+   ],
+   "missing_info": [
+    "Confirm whether the lead would consider an installation outside Greater Manchester (unlikely given the service area)"
+   ],
+   "next_action": {
+    "type": "disqualify",
+    "detail": "Tell the lead politely that Brightside only installs in Greater Manchester, so they can't cover Edinburgh, and suggest they look for a local MCS installer; no call needed.",
+    "within_hours": 48
+   },
+   "confidence": 0.85,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 11182,
+   "analysed_at": "2026-11-23T11:36:04.757Z"
+  },
+  "bs09": {
+   "score": 42,
+   "intent": "early_research",
+   "summary": "Homeowner completing on a house in March, interested in a battery only, with a £75-£100 monthly bill, unknown roof direction and a 6+ month timeline.",
+   "facts": [
+    {
+     "label": "Homeowner status",
+     "value": "Buying soon, completing on a house in March"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£75-£100"
+    },
+    {
+     "label": "Roof direction",
+     "value": "Not sure"
+    },
+    {
+     "label": "Timeline",
+     "value": "6+ months"
+    },
+    {
+     "label": "Interest",
+     "value": "Battery only, with a time of use tariff"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "Postcode M14 is in the M area, which is covered."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "negative",
+     "detail": "Bill of £75-£100 is below the £100 threshold."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "negative",
+     "detail": "6+ months is outside the six-month install window."
+    },
+    {
+     "factor": "Ownership",
+     "impact": "neutral",
+     "detail": "Not yet an owner; completion is expected in March, so ownership is likely soon but not confirmed."
+    },
+    {
+     "factor": "Product fit",
+     "impact": "negative",
+     "detail": "Wants a battery only, not solar panels, and the ideal customer profile is a solar-plus-battery system with a suitable roof."
+    }
+   ],
+   "missing_info": [
+    "Confirmed completion date and whether the purchase has completed",
+    "Whether the roof faces south, east or west",
+    "Current electricity bill, to check whether it is near or above £100",
+    "Whether they would consider solar panels as well as a battery",
+    "Whether the install could fall within six months of completion"
+   ],
+   "next_action": {
+    "type": "nurture",
+    "detail": "Send a short email after completion to confirm the purchase, roof direction and bill, and ask whether they would consider panels with the battery; no call is needed until they are an owner with a confirmed install window.",
+    "within_hours": 72
+   },
+   "confidence": 0.7,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 15059,
+   "analysed_at": "2026-11-23T11:36:08.635Z"
+  },
+  "bs10": {
+   "score": 88,
+   "intent": "comparing_options",
+   "summary": "Greater Manchester homeowner (WN6 postcode, in service area) with a £150-£250 monthly bill, a west-facing bungalow roof and a 3-6 month timeline, asking whether a battery is worth it.",
+   "facts": [
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "West (bungalow, described as big)"
+    },
+    {
+     "label": "Timeline",
+     "value": "3-6 months"
+    },
+    {
+     "label": "Interested in",
+     "value": "Solar and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Home ownership",
+     "impact": "positive",
+     "detail": "States they are a homeowner, meeting the first criterion."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "WN postcode is within the WN service area."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "Monthly bill of £150-£250 is well above the £100 threshold."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "West-facing roof meets the south, east or west criterion, and the message describes it as big."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "3-6 months sits mostly within the six-month window, though the upper end is at the edge."
+    }
+   ],
+   "missing_info": [
+    "Whether the wife is also involved in the decision and her main concern about the battery",
+    "Confirmation the bungalow is owned outright or with a mortgage, and any roof condition issues",
+    "Whether the 3-6 month timeline can be firmed up to within six months",
+    "Preferred contact time and an email address for sending information"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Peter and open by answering the battery question directly, explaining when a battery adds value for a home with his bill level, then offer a free home survey.",
+    "within_hours": 2
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 19295,
+   "analysed_at": "2026-11-23T11:36:12.872Z"
+  },
+  "bs11": {
+   "score": 78,
+   "intent": "comparing_options",
+   "summary": "Chorlton homeowner with a south-facing terrace, £100-£150 monthly bills and a 3-month timeline, but asks whether the conservation area is a problem for panels.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "Terrace in Chorlton, conservation area"
+    },
+    {
+     "label": "Owns home",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Ownership",
+     "impact": "positive",
+     "detail": "States they own the home, meeting the first criterion."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "£100-£150 a month meets the over £100 threshold."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "South-facing roof meets the criterion."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months, inside the 6-month window."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "M21 is in the M postcode area, which is covered."
+    }
+   ],
+   "missing_info": [
+    "Whether the roof is suitable for panels and whether the terrace has a usable roof slope visible from the street",
+    "Whether a conservation area consent or planning restriction applies to this property",
+    "Phone number for a faster call-back"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Email is the only contact, so send a short email now answering the conservation area question and asking for a phone number, then book a free home survey.",
+    "within_hours": 4
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 5600,
+   "analysed_at": "2026-11-23T11:36:18.472Z"
+  },
+  "bs12": {
+   "score": 18,
+   "intent": "early_research",
+   "summary": "Homeowner in BL9 (inside service area) asking about solar panel prices, but bill is under £75, roof faces north, and they are just researching with no install timeline.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "BL9 0SW"
+    },
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "Under £75"
+    },
+    {
+     "label": "Roof direction",
+     "value": "North"
+    },
+    {
+     "label": "Timeline",
+     "value": "Just researching"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form answer says they are a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "BL9 is within the BL postcode area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "negative",
+     "detail": "Monthly bill is under £75, below the £100 threshold."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "negative",
+     "detail": "Timeline is just researching, with no install window given."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "negative",
+     "detail": "Roof direction is north, which fails the criterion."
+    }
+   ],
+   "missing_info": [
+    "Whether they would consider a north-facing roof with a survey check",
+    "Actual install timing if any",
+    "Confirmation of the bill amount"
+   ],
+   "next_action": {
+    "type": "nurture",
+    "detail": "Send a short follow-up by text or call only if the team wants to test interest, and open by confirming the roof direction and bill before quoting prices; otherwise add to nurture.",
+    "within_hours": 48
+   },
+   "confidence": 0.8,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 9279,
+   "analysed_at": "2026-11-23T11:36:22.153Z"
+  },
+  "bs13": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Homeowner in SK8 (Greater Manchester) with a bill over £250 a month, south-east roof, wants solar and battery as soon as possible, and is motivated by high running costs.",
+   "facts": [
+    {
+     "label": "Tenure",
+     "value": "Homeowner"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "Over £250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-east"
+    },
+    {
+     "label": "Timeline",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Interest",
+     "value": "Solar and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form answer confirms she is a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode SK8 falls within the SK service area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "positive",
+     "detail": "Bill is over £250 a month, well above the threshold."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline is as soon as possible."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "South-east qualifies, though the exact roof suitability still needs a survey."
+    }
+   ],
+   "missing_info": [
+    "Whether the roof is suitable and unshaded for panels",
+    "Confirm the home is owned outright or has no restrictions on works",
+    "Preferred contact method, as no email was given"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her straight away on the phone number provided, open by acknowledging the high bills and the salon and hot tub usage, then book a free home survey.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 14055,
+   "analysed_at": "2026-11-23T11:36:26.929Z"
+  },
+  "bs14": {
+   "score": 82,
+   "intent": "ready_to_buy",
+   "summary": "Greater Manchester homeowner referred by Gary, with a £100-£150 monthly electricity bill, a south-west roof and a 3-6 month timeline for solar panels; all five qualification criteria appear to be met, but there is no email address yet.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "OL4 2NB"
+    },
+    {
+     "label": "Owns home",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-west"
+    },
+    {
+     "label": "Timeline",
+     "value": "3-6 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Homeowner",
+     "impact": "positive",
+     "detail": "Form says they own the home, which is a qualification criterion."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "OL4 postcode is in the OL service area."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "£100-£150 a month meets the over £100 criterion."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "South-west falls within the south, east or west criterion."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "3-6 months partly meets the within 6 months criterion, with the upper end at the limit."
+    }
+   ],
+   "missing_info": [
+    "Confirm the timeline is within 6 months",
+    "Confirm the roof is suitable for panels and its orientation",
+    "Confirm the lead's name matches the homeowner and that Gary is a customer, if referral terms apply"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Kevin, mention Gary's referral, confirm he owns the home and wants to install within six months, then book a free home survey.",
+    "within_hours": 4
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 19858,
+   "analysed_at": "2026-11-23T11:36:32.732Z"
+  },
+  "bs15": {
+   "score": 90,
+   "intent": "comparing_options",
+   "summary": "Homeowner in WA1 with a £150-£250 monthly electricity bill, south-facing roof, wanting solar and battery within 3 months, and already holding a competing £11k quote.",
+   "facts": [
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Interested in",
+     "value": "Solar and battery"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Form answer confirms they are a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode WA1 is in the WA service area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "positive",
+     "detail": "Stated bill is £150-£250 a month."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline is within 3 months."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "Roof direction is south."
+    }
+   ],
+   "missing_info": [
+    "Email address, which was not given, so phone is the only contact route",
+    "Whether the roof is suitable beyond direction, such as size and condition",
+    "Full scope of the competing quote, including panel and battery specification and finance terms"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call now and open by asking what the other £11k quote includes, then explain the free home survey and 0% finance over 5 years to compare like for like.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 23123,
+   "analysed_at": "2026-11-23T11:36:35.998Z"
+  },
+  "bs16": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Manchester homeowner (M8) with £150-£250 monthly bills, south-facing roof, wants solar and battery within 3 months and asks for the largest system that fits.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "Homeowner, three generations living in the house"
+    },
+    {
+     "label": "Postcode",
+     "value": "M8 5RA (Manchester, inside service area)"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "States they are a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "Postcode M8 falls within the M area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Bill of £150-£250 a month is well above the threshold."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months."
+    },
+    {
+     "factor": "South-facing roof",
+     "impact": "positive",
+     "detail": "Roof faces south, which suits solar."
+    }
+   ],
+   "missing_info": [
+    "Roof suitability and shading for the largest system",
+    "Confirmation of budget or preferred finance option",
+    "Best email address, as none was given"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call them straight away, confirm the home is theirs, book a free home survey, and ask about roof space and shading for a larger system with battery.",
+    "within_hours": 1
+   },
+   "confidence": 0.9,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 3362,
+   "analysed_at": "2026-11-23T11:36:39.360Z"
+  },
+  "bs17": {
+   "score": 72,
+   "intent": "comparing_options",
+   "summary": "Bolton homeowner (BL3) with a £100-£150 monthly bill, east-facing roof and 3-6 month timeline, interested in a battery only, asking whether a battery helps without panels on an overnight tariff.",
+   "facts": [
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "East"
+    },
+    {
+     "label": "Timeline",
+     "value": "3-6 months"
+    },
+    {
+     "label": "Interest",
+     "value": "Battery only, no panels"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Home ownership",
+     "impact": "positive",
+     "detail": "States they are a homeowner, which meets the criteria."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "BL postcode is in the Brightside service area."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "Bill of £100-£150 a month meets the over £100 criterion."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "3-6 months mostly sits within the 6-month window."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "East-facing roof meets the criteria."
+    }
+   ],
+   "missing_info": [
+    "Whether they would consider adding solar panels later",
+    "Their current tariff and whether they would benefit from a battery on an overnight tariff",
+    "Whether the 3-6 month timeline means they could install within 6 months",
+    "Email address, as only a phone number was given"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to confirm the details, then answer the overnight tariff question honestly: a battery alone can store cheap overnight power for use at peak times, but benefits depend on tariff and usage, so check whether a panels-plus-battery package or a battery-only option suits them.",
+    "within_hours": 2
+   },
+   "confidence": 0.7,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 8119,
+   "analysed_at": "2026-11-23T11:36:44.118Z"
+  },
+  "bs18": {
+   "score": 62,
+   "intent": "early_research",
+   "summary": "Steven Grimshaw is a homeowner in M28 with a £100-£150 monthly bill and a south-facing roof, but he is thinking about installing next summer, which is outside the six-month window and so a slow timeline.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "Homeowner"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South"
+    },
+    {
+     "label": "Timeline",
+     "value": "6+ months (thinking about it for next summer)"
+    },
+    {
+     "label": "Interest",
+     "value": "Solar panels"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Stated as homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "M28 is in the M postcode area."
+    },
+    {
+     "factor": "Electricity bill over £100 a month",
+     "impact": "positive",
+     "detail": "Bill is £100-£150, which meets the threshold at the lower end."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "Roof faces south, which is ideal."
+    },
+    {
+     "factor": "Wants to install within 6 months",
+     "impact": "negative",
+     "detail": "Timeline is 6+ months and the message points to next summer, so it likely falls outside the criterion."
+    }
+   ],
+   "missing_info": [
+    "Whether he would consider installing sooner or would only act around next summer",
+    "Email address, as none was given, so the team can only reach him by phone",
+    "Whether the bill figure is typical and whether he has any finance preference"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Phone him to confirm his timing and offer the free home survey and 0% finance, asking whether booking a survey now would suit him ahead of next summer.",
+    "within_hours": 24
+   },
+   "confidence": 0.8,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 13111,
+   "analysed_at": "2026-11-23T11:36:49.110Z"
+  },
+  "bs19": {
+   "score": 90,
+   "intent": "ready_to_buy",
+   "summary": "Emma Whitworth, a homeowner in SK2 (Greater Manchester), has a £150-£250 monthly electricity bill, a south-west roof and wants solar and battery installed within 3 months.",
+   "facts": [
+    {
+     "label": "Property",
+     "value": "3 bed semi-detached home"
+    },
+    {
+     "label": "Postcode",
+     "value": "SK2 6PZ"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£150-£250"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-west"
+    },
+    {
+     "label": "Timeline",
+     "value": "Within 3 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Confirmed homeowner on the form."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "SK postcode area is in the service area."
+    },
+    {
+     "factor": "Electricity bill",
+     "impact": "positive",
+     "detail": "Bill of £150-£250 a month is over the £100 threshold."
+    },
+    {
+     "factor": "Install timeline",
+     "impact": "positive",
+     "detail": "Wants to install within 3 months, well inside the 6-month window."
+    },
+    {
+     "factor": "Roof direction",
+     "impact": "positive",
+     "detail": "South-west falls within the south, east or west criteria."
+    }
+   ],
+   "missing_info": [
+    "Confirm the roof is suitable and unshaded during the free survey",
+    "Confirm she is happy to proceed with a survey before giving a price",
+    "Confirm the budget or preferred finance option, given the 0% over 5 years offer"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Emma straight away, confirm she is the homeowner, offer a rough price range for a 3 bed semi based on her bill, and book the free home survey.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 16289,
+   "analysed_at": "2026-11-23T11:36:52.288Z"
+  },
+  "bs20": {
+   "score": 85,
+   "intent": "ready_to_buy",
+   "summary": "Greater Manchester homeowner (M41) with a £100-£150 monthly electricity bill, south-east roof, and a 3-6 month timeline, asking what size system a 3-bed house needs.",
+   "facts": [
+    {
+     "label": "Homeowner",
+     "value": "Yes"
+    },
+    {
+     "label": "Monthly electricity bill",
+     "value": "£100-£150"
+    },
+    {
+     "label": "Roof direction",
+     "value": "South-east"
+    },
+    {
+     "label": "Timeline",
+     "value": "3-6 months"
+    },
+    {
+     "label": "Property",
+     "value": "3-bed house"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Owns the home",
+     "impact": "positive",
+     "detail": "Stated as a homeowner."
+    },
+    {
+     "factor": "Lives in service area",
+     "impact": "positive",
+     "detail": "M41 is in the M postcode area."
+    },
+    {
+     "factor": "Electricity bill over £100",
+     "impact": "positive",
+     "detail": "Bill is £100-£150 a month, meeting the threshold."
+    },
+    {
+     "factor": "Install within 6 months",
+     "impact": "positive",
+     "detail": "Timeline of 3-6 months sits within the target window, though the upper end is at the limit."
+    },
+    {
+     "factor": "Roof faces south, east or west",
+     "impact": "positive",
+     "detail": "South-east roof qualifies."
+    }
+   ],
+   "missing_info": [
+    "Email address (not given, so phone is the only contact route)",
+    "Confirmation of roof suitability and shading during survey",
+    "Whether the 3-bed house roof has enough usable space for a system",
+    "Confirm the timeline is firm rather than the upper end of 3-6 months"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Chris today, open by answering his question on a typical system size for a 3-bed home, then book a free home survey.",
+    "within_hours": 2
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 22605,
+   "analysed_at": "2026-11-23T11:36:58.605Z"
+  },
+  "hd01": {
+   "score": 85,
+   "intent": "ready_to_buy",
+   "summary": "Lauren Price (BS6, Bristol) wants Invisalign as soon as possible, is open to monthly finance, and asks whether there is enough time before her September wedding.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Invisalign"
+    },
+    {
+     "label": "Start",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Payment",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS6 5AQ (inside service area)"
+    },
+    {
+     "label": "Goal",
+     "value": "Straight teeth for wedding photos next September"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Invisalign is one of the client's listed high-value treatments and matches the ideal customer."
+    },
+    {
+     "factor": "Timing",
+     "impact": "positive",
+     "detail": "Wants to start as soon as possible, so the three-month start window is likely met, though the September wedding deadline is some months away and needs checking."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Asked for monthly finance, which the client offers at 0% on treatments over £1,000."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS6 postcode is within the Bristol service area."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number given, so there is a way to contact her, though no email."
+    }
+   ],
+   "missing_info": [
+    "Confirm she can start within the next three months and how long her treatment would take before September",
+    "Confirm monthly budget or finance comfort level",
+    "Confirm the best time to call"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her now while the enquiry is fresh, open by confirming her wedding date and asking when she could start, then book a free 20-minute consultation.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 4179,
+   "analysed_at": "2026-11-23T11:37:02.784Z"
+  },
+  "hd02": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Marcus Bennett wants dental implants to replace two back teeth, can start within 3 months and will pay in full; he is a nervous patient and has given a phone number.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Dental implants"
+    },
+    {
+     "label": "Start",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS16 2HY"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Dental implants are a listed high-value treatment from £2,450 and match the client's criteria."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which meets the qualification criteria."
+    },
+    {
+     "factor": "Ability to pay",
+     "impact": "positive",
+     "detail": "Says they will pay in full, so no finance is needed."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS16 postcode falls within the BS service area near Bristol."
+    },
+    {
+     "factor": "Contact details",
+     "impact": "positive",
+     "detail": "Phone number given, so the team can call directly."
+    }
+   ],
+   "missing_info": [
+    "Whether the two missing back teeth are still open spaces or if any other treatment has been discussed",
+    "Any dental history or current oral health concerns that could affect implant suitability",
+    "Preferred time for a consultation"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Marcus, reassure him about the nervousness, and offer the free 20-minute consultation as a low-pressure first step.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 7538,
+   "analysed_at": "2026-11-23T11:37:06.144Z"
+  },
+  "hd03": {
+   "score": 38,
+   "intent": "early_research",
+   "summary": "Chloe Evans in BS3 wants teeth whitening before a holiday in three weeks, pays in full and has given a phone number, but whitening is not one of the high-value treatments the client targets.",
+   "facts": [
+    {
+     "label": "Treatment interest",
+     "value": "Teeth whitening"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS3 1QJ"
+    },
+    {
+     "label": "Timeline",
+     "value": "As soon as possible; holiday in about 3 weeks"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment fit",
+     "impact": "negative",
+     "detail": "Whitening is not one of the high-value treatments (Invisalign, implants, bonding) the client qualifies for."
+    },
+    {
+     "factor": "Location fit",
+     "impact": "positive",
+     "detail": "BS3 is within the Bristol service area."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants treatment within about three weeks, well inside the three-month window."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Says they will pay in full."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number given, so they can be reached."
+    }
+   ],
+   "missing_info": [
+    "Whether they are also interested in bonding or other cosmetic treatment",
+    "Whether the whitening offer is still running and its price",
+    "Exact holiday date and whether a whitening session fits before it"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to confirm the whitening offer is still running, then ask whether they have considered composite bonding or a smile makeover for a bigger result.",
+    "within_hours": 4
+   },
+   "confidence": 0.7,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 10730,
+   "analysed_at": "2026-11-23T11:37:09.336Z"
+  },
+  "hd04": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "James Okoro wants Invisalign for relapsed lower front teeth, can start within three months and will use monthly finance, all within the Bristol service area.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Invisalign"
+    },
+    {
+     "label": "Start timing",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS8 4TR (Bristol)"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Asked for Invisalign, which is one of the client's core high-value treatments."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS8 postcode is inside the BS service area and within easy reach of Bristol."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which matches the criteria."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Chose monthly finance, which qualifies under the 0% finance offer for treatments over £1,000."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Gave an email address, so the team can reach him."
+    }
+   ],
+   "missing_info": [
+    "Phone number, so the team can call as well as email",
+    "Whether the relapse is mild or needs more than aligners",
+    "Confirmation of the finance route and monthly budget he has in mind",
+    "Whether he has had a dental check recently"
+   ],
+   "next_action": {
+    "type": "send_email",
+    "detail": "Email James to thank him, offer a free 20-minute consultation at Harbour Dental Studio, and ask for a phone number and a preferred time for a call or visit.",
+    "within_hours": 2
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 14280,
+   "analysed_at": "2026-11-23T11:37:12.887Z"
+  },
+  "hd05": {
+   "score": 72,
+   "intent": "ready_to_buy",
+   "summary": "Existing patient in BS9 wants composite bonding to fix a chipped front tooth and close gaps either side, starting within 3 months, with payment not yet decided.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Composite bonding"
+    },
+    {
+     "label": "Start",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Not sure yet"
+    },
+    {
+     "label": "Existing patient",
+     "value": "Yes"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS9 3PD (within BS area)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment fit",
+     "impact": "positive",
+     "detail": "Composite bonding is one of the qualifying high-value treatments, and the message asks to close gaps, which bonding can address."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS9 is within the BS service area."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which meets the criterion."
+    },
+    {
+     "factor": "Payment",
+     "impact": "negative",
+     "detail": "Not sure how they will pay, so the private or finance criterion is unconfirmed."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number given, which meets the contact criterion."
+    }
+   ],
+   "missing_info": [
+    "Payment route: self-pay or finance, and whether the bonding is over £1,000 for 0% finance",
+    "Number of teeth involved, to size the treatment value against the £295-per-tooth price",
+    "Whether the chipped tooth needs an urgent appointment or a dentist check first"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call on the phone number provided, mention her existing patient status and the chipped tooth, and ask how she would prefer to pay and how many teeth she wants to treat.",
+    "within_hours": 2
+   },
+   "confidence": 0.7,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 18225,
+   "analysed_at": "2026-11-23T11:37:16.834Z"
+  },
+  "hd06": {
+   "score": 12,
+   "intent": "comparing_options",
+   "summary": "London-based lead (SE15) comparing smile makeover prices with no treatment chosen, no start timeline and no payment plan, so outside the Bristol service area.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "SE15 4QN (London)"
+    },
+    {
+     "label": "Enquiry",
+     "value": "Asking how much a full smile makeover costs; comparing prices in London"
+    },
+    {
+     "label": "Start",
+     "value": "Just researching"
+    },
+    {
+     "label": "Payment",
+     "value": "Not sure yet"
+    },
+    {
+     "label": "Contact",
+     "value": "Phone given; no email"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Location",
+     "impact": "negative",
+     "detail": "SE15 is in London, well outside the BS, BA, GL and NP service areas and not within travelling distance of Bristol."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "negative",
+     "detail": "Just researching, so does not want to start within three months."
+    },
+    {
+     "factor": "Ability to pay",
+     "impact": "neutral",
+     "detail": "Payment not yet decided; no evidence either way of private or finance payment."
+    },
+    {
+     "factor": "Treatment interest",
+     "impact": "positive",
+     "detail": "Smile makeover is a high-value treatment that fits the client's offer, though the treatment itself is not yet chosen."
+    },
+    {
+     "factor": "Contact details",
+     "impact": "positive",
+     "detail": "Phone number given, so the lead can be contacted."
+    }
+   ],
+   "missing_info": [
+    "Whether they would travel to Bristol for treatment",
+    "Which treatment they are considering",
+    "Whether they plan to start within three months",
+    "How they intend to pay"
+   ],
+   "next_action": {
+    "type": "disqualify",
+    "detail": "Send a short, polite reply or leave it out of the call queue, as the lead is outside the service area and not ready to buy; if the client wants to keep them, add them to a nurture list.",
+    "within_hours": 48
+   },
+   "confidence": 0.8,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 3576,
+   "analysed_at": "2026-11-23T11:37:22.437Z"
+  },
+  "hd07": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Hannah Morgan, from Bath (BA1 postcode, inside the service area), wants Invisalign within three months and asks about monthly finance; she gave a phone number.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Invisalign"
+    },
+    {
+     "label": "Start",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Location",
+     "value": "Bath (postcode BA1 2JN)"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Asked for Invisalign, which is one of the listed high-value treatments (from £3,200)."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which meets the criterion."
+    },
+    {
+     "factor": "Payment route",
+     "impact": "positive",
+     "detail": "Chose monthly finance, and treatments over £1,000 qualify for 0% finance."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "Bath postcode BA1 is inside the BA service area, and she says she is happy to travel to Bristol."
+    },
+    {
+     "factor": "Contact details",
+     "impact": "positive",
+     "detail": "Gave a phone number, so the team can reach her directly."
+    }
+   ],
+   "missing_info": [
+    "Confirm the finance terms and monthly figure she is asking about before quoting",
+    "Confirm whether she has a budget or deposit in mind",
+    "Book a free 20-minute consultation"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her on the number provided and open by answering her question about the monthly finance, explaining the 0% finance option on treatments over £1,000, then offer a free 20-minute consultation.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 6362,
+   "analysed_at": "2026-11-23T11:37:25.224Z"
+  },
+  "hd08": {
+   "score": 22,
+   "intent": "not_a_fit",
+   "summary": "Enquiring about whitening for her daughter, who is under 18, from a BS4 postcode, with a later-this-year start and full payment; the lead is not the patient and the treatment is low-value.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "BS4 1TE"
+    },
+    {
+     "label": "Treatment asked about",
+     "value": "Teeth whitening"
+    },
+    {
+     "label": "Start",
+     "value": "Later this year"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment value",
+     "impact": "negative",
+     "detail": "Whitening is not one of the high-value treatments (Invisalign, implants, bonding) in the qualification criteria."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS4 is within the Bristol service area."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "neutral",
+     "detail": "Later this year may or may not fall within three months; the lead did not give a more specific date."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Says they would pay in full, which meets the payment criterion."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number given, so contact is possible."
+    }
+   ],
+   "missing_info": [
+    "Whether the clinic treats under-18s and what its policy is for minors",
+    "Whether the lead would consider a higher-value treatment for herself or her daughter",
+    "Specific start date"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to explain the clinic's policy on treating under-18s and ask whether the family is interested in any other treatments, opening with an answer to her whitening question.",
+    "within_hours": 24
+   },
+   "confidence": 0.6,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 9674,
+   "analysed_at": "2026-11-23T11:37:28.537Z"
+  },
+  "hd09": {
+   "score": 85,
+   "intent": "ready_to_buy",
+   "summary": "David Hughes, 64, wants upper dental implants to replace a partial denture he dislikes, wants to start as soon as possible and would pay by monthly finance; postcode BS31 is within the Bristol service area.",
+   "facts": [
+    {
+     "label": "Treatment interest",
+     "value": "Dental implants (upper arch, replacing a partial denture)"
+    },
+    {
+     "label": "Start",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Payment",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS31 1EZ (within BS service area)"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Dental implants from £2,450 is one of the client's target treatments."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start as soon as possible, which is within the three-month window."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Has said they would pay by monthly finance, which the clinic offers at 0% on treatments over £1,000."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS31 is in the BS postcode area, close to Bristol."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number provided, so the team can call."
+    }
+   ],
+   "missing_info": [
+    "Whether the finance option is confirmed as affordable for him",
+    "Clinical suitability for implants (bone density, gum health, medical history)",
+    "Whether he would consider Invisalign or bonding instead, if implants are not suitable",
+    "Preferred consultation date and time"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call him, confirm interest in upper implants to replace his partial denture, and offer a free 20-minute consultation as soon as possible.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 13206,
+   "analysed_at": "2026-11-23T11:37:32.070Z"
+  },
+  "hd10": {
+   "score": 82,
+   "intent": "comparing_options",
+   "summary": "Amelia Shaw wants Invisalign for crowded bottom teeth, can pay in full, wants to start as soon as possible, and is comparing with another clinic, so she needs a quick call.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Invisalign for crowded bottom teeth"
+    },
+    {
+     "label": "Start",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS7 8NU (Bristol, inside service area)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment fit",
+     "impact": "positive",
+     "detail": "Invisalign is a high-value treatment the clinic offers, matching the qualification criteria."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS7 postcode is in Bristol, inside the BS service area."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start as soon as possible, well within three months."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Says she will pay in full, which meets the payment criterion."
+    },
+    {
+     "factor": "Competition",
+     "impact": "negative",
+     "detail": "Already has a consultation elsewhere, so the clinic must act quickly to win her."
+    }
+   ],
+   "missing_info": [
+    "Whether the other clinic's consultation is before or after a Harbour call",
+    "Confirmation of the best phone number and a good time to call",
+    "Her availability for a free 20-minute consultation"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her straight away, introduce the free 20-minute consultation, and ask what the other clinic offers so the team can compare on value and timing.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 16859,
+   "analysed_at": "2026-11-23T11:37:35.724Z"
+  },
+  "hd11": {
+   "score": 82,
+   "intent": "ready_to_buy",
+   "summary": "Oliver Grant, BS1 postcode in Bristol, wants composite bonding on four front teeth as soon as possible and will pay in full; he has given a phone number.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Composite bonding on four front teeth"
+    },
+    {
+     "label": "Start",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Location",
+     "value": "Postcode BS1 6QA (Bristol)"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Composite bonding is one of the client's listed high-value treatments, although four teeth is a smaller job than a full makeover."
+    },
+    {
+     "factor": "Within service area",
+     "impact": "positive",
+     "detail": "BS1 is inside the BS service area and in central Bristol."
+    },
+    {
+     "factor": "Timing",
+     "impact": "positive",
+     "detail": "Wants to start as soon as possible, well within the three-month window."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Will pay in full, which meets the privately-paid criterion."
+    },
+    {
+     "factor": "Contact details",
+     "impact": "positive",
+     "detail": "Phone number given, so the clinic can reach him directly."
+    }
+   ],
+   "missing_info": [
+    "Whether he wants bonding on other teeth or a wider smile makeover",
+    "Preferred time for a consultation",
+    "Email address, if the clinic wants a written follow-up"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call him on the number he gave, mention the free 20-minute consultation, and ask which four teeth he wants bonded and whether he would like other work discussed too.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 4436,
+   "analysed_at": "2026-11-23T11:37:40.161Z"
+  },
+  "hd12": {
+   "score": 45,
+   "intent": "early_research",
+   "summary": "Newport lead from a TikTok whitening campaign who wants to start ASAP and pay in full, but is only asking about whitening and wonders if the drive is worth it.",
+   "facts": [
+    {
+     "label": "Treatment interest",
+     "value": "Teeth whitening"
+    },
+    {
+     "label": "Start",
+     "value": "As soon as possible"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    },
+    {
+     "label": "Location",
+     "value": "Newport (NP20 4AT)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment interest",
+     "impact": "negative",
+     "detail": "Whitening at £395 is not one of the high-value treatments (Invisalign, implants, bonding) the client targets."
+    },
+    {
+     "factor": "Timing",
+     "impact": "positive",
+     "detail": "Wants to start as soon as possible, well within the three-month window."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Says they will pay in full, so can pay privately."
+    },
+    {
+     "factor": "Location",
+     "impact": "neutral",
+     "detail": "NP is in the service area, but the lead questions whether the drive from Newport is worth it, so travel is a concern."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Gave a phone number, so they can be reached."
+    }
+   ],
+   "missing_info": [
+    "Whether they are interested in Invisalign, implants or bonding as well as whitening",
+    "How far they are willing to travel",
+    "Their budget beyond the whitening price"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to answer the drive question honestly, then ask whether they would consider bonding or Invisalign for a bigger smile change, and offer the free 20-minute consultation.",
+    "within_hours": 2
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 11065,
+   "analysed_at": "2026-11-23T11:37:46.791Z"
+  },
+  "hd13": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Sarah Bishop wants Invisalign for a front gap and overbite, can start within three months and prefers monthly finance; she is in BS10, inside the service area.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Invisalign"
+    },
+    {
+     "label": "Start",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS10 5LT"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment interest",
+     "impact": "positive",
+     "detail": "Asked specifically about Invisalign, a high-value treatment the client offers."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which matches the criteria."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Chose monthly finance, and the client offers 0% finance on treatments over £1,000."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS10 is in the BS service area, within travelling distance of Bristol."
+    },
+    {
+     "factor": "Contact details",
+     "impact": "positive",
+     "detail": "Phone number given, so a call is possible. No email provided."
+    }
+   ],
+   "missing_info": [
+    "Whether Invisalign suits the gap and overbite, which needs a clinical assessment",
+    "Preferred call time and whether she wants a free 20-minute consultation",
+    "Monthly budget or finance preference"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call her on the number provided, confirm she is free for a consultation, and ask whether she would like to book her free 20-minute consultation to check whether Invisalign can fix the gap and overbite.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 14887,
+   "analysed_at": "2026-11-23T11:37:50.613Z"
+  },
+  "hd14": {
+   "score": 55,
+   "intent": "early_research",
+   "summary": "Bristol lead (BS14) interested in a smile makeover, unsure which treatment, starting later this year, and open to monthly finance; budget concerns noted.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "BS14 9RW"
+    },
+    {
+     "label": "Treatment interest",
+     "value": "Not sure yet; wants whiter, straighter teeth"
+    },
+    {
+     "label": "Start timing",
+     "value": "Later this year"
+    },
+    {
+     "label": "Payment preference",
+     "value": "Monthly finance"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS14 is within the Bristol service area."
+    },
+    {
+     "factor": "Treatment interest",
+     "impact": "neutral",
+     "detail": "Wants whiter, straighter teeth, which could mean bonding or Invisalign, but has not chosen a high-value treatment yet."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "negative",
+     "detail": "Says later this year, which may fall outside the three-month window."
+    },
+    {
+     "factor": "Payment",
+     "impact": "positive",
+     "detail": "Open to monthly finance, which the clinic offers at 0% on treatments over £1,000."
+    },
+    {
+     "factor": "Budget",
+     "impact": "negative",
+     "detail": "Message says they are unsure what is possible on a budget, so affordability is unclear."
+    }
+   ],
+   "missing_info": [
+    "Whether they want to start within three months",
+    "Which treatment they are considering and their rough budget",
+    "Whether they can afford finance on a treatment over £1,000"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to explain options such as composite bonding or Invisalign and the free 20-minute consultation, then confirm their start timing and monthly budget.",
+    "within_hours": 24
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 18320,
+   "analysed_at": "2026-11-23T11:37:54.047Z"
+  },
+  "hd15": {
+   "score": 52,
+   "intent": "early_research",
+   "summary": "Grace Wilson is researching Invisalign in Bristol with no start date and unsure about payment, but she is in the BS postcode area and has given a phone number.",
+   "facts": [
+    {
+     "label": "Treatment interest",
+     "value": "Invisalign"
+    },
+    {
+     "label": "Postcode",
+     "value": "BS5 0HE (within service area)"
+    },
+    {
+     "label": "Contact",
+     "value": "Phone number given, no email"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Treatment interest",
+     "impact": "positive",
+     "detail": "Asked about Invisalign, a high-value treatment on the client's list."
+    },
+    {
+     "factor": "Location",
+     "impact": "positive",
+     "detail": "BS5 postcode is inside the BS service area."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "negative",
+     "detail": "Form says 'Just researching' and the message says 'Just looking at options', so no start within three months is stated."
+    },
+    {
+     "factor": "Payment",
+     "impact": "neutral",
+     "detail": "Answered 'Not sure yet', so private payment or finance is unconfirmed."
+    },
+    {
+     "factor": "Contact",
+     "impact": "neutral",
+     "detail": "Phone number given, which meets the contact criterion."
+    }
+   ],
+   "missing_info": [
+    "When she would like to start treatment",
+    "How she plans to pay (privately or with 0% finance)",
+    "Whether she has had a prior consultation or quote elsewhere"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call to offer the free 20-minute consultation, ask about her timeline and payment plans, and find out what she is comparing.",
+    "within_hours": 24
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 21789,
+   "analysed_at": "2026-11-23T11:37:57.516Z"
+  },
+  "hd16": {
+   "score": 84,
+   "intent": "ready_to_buy",
+   "summary": "Paul Jenkins wants a single front-tooth implant within three months, can pay in full, and has given a phone number; GL1 postcode is within the client's GL service area.",
+   "facts": [
+    {
+     "label": "Treatment",
+     "value": "Dental implants (one front tooth)"
+    },
+    {
+     "label": "Start",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Payment",
+     "value": "Pay in full"
+    },
+    {
+     "label": "Postcode",
+     "value": "GL1 2EH"
+    },
+    {
+     "label": "Existing patient",
+     "value": "No"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "High-value treatment",
+     "impact": "positive",
+     "detail": "Dental implants are one of the client's target treatments, listed from £2,450."
+    },
+    {
+     "factor": "Timeline",
+     "impact": "positive",
+     "detail": "Wants to start within 3 months, which matches the criteria."
+    },
+    {
+     "factor": "Ability to pay",
+     "impact": "positive",
+     "detail": "Says they will pay in full."
+    },
+    {
+     "factor": "Location",
+     "impact": "neutral",
+     "detail": "GL1 is in the GL service area, but Gloucester is a fair distance from Bristol, so travel should be confirmed."
+    },
+    {
+     "factor": "Contact",
+     "impact": "positive",
+     "detail": "Phone number given, so the lead can be called directly."
+    }
+   ],
+   "missing_info": [
+    "Whether they can travel to the Bristol clinic from Gloucester",
+    "Whether the temporary bridge is causing pain or urgency",
+    "Whether a single implant is what the dentist would recommend after assessment"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Paul, confirm he can travel to the Bristol clinic, and offer a free 20-minute consultation to assess the front tooth implant.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 4071,
+   "analysed_at": "2026-11-23T11:38:01.587Z"
+  },
+  "rf01": {
+   "score": 92,
+   "intent": "ready_to_buy",
+   "summary": "Sian Edwards, Operations Director at Kestrel Logistics (120-staff warehouse, SN5 postcode), needs a resilient leased line with backup as their FTTC contract ends within 3 months and the current line drops several times a week.",
+   "facts": [
+    {
+     "label": "Company",
+     "value": "Kestrel Logistics Ltd"
+    },
+    {
+     "label": "Role",
+     "value": "Operations Director"
+    },
+    {
+     "label": "Company size",
+     "value": "50-249 staff (message says 120)"
+    },
+    {
+     "label": "Current provider",
+     "value": "National telco, FTTC"
+    },
+    {
+     "label": "Contract ends",
+     "value": "Within 3 months"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Warehouse operation with 120 staff using scanners and cloud WMS."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Message states 120 staff, within the 50-249 band selected."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "neutral",
+     "detail": "Postcode SN5 is in the service area, but build coverage for this address has not been checked."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Contract ends within 3 months, so timing is urgent."
+    },
+    {
+     "factor": "Talking to a decision maker",
+     "impact": "positive",
+     "detail": "Operations Director, who is likely to hold purchasing authority, though budget sign-off is not confirmed."
+    }
+   ],
+   "missing_info": [
+    "Confirm the site is in the build area and check lead time against the 3-month contract end",
+    "Confirm budget and who signs off the contract",
+    "Confirm bandwidth requirement and backup connection preference",
+    "Check whether the telco contract has an early exit or notice period"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Sian Edwards today, open by acknowledging the several daily drops and the 3-month contract end, then confirm the site's build status and the bandwidth needed for the leased line and backup.",
+    "within_hours": 1
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 8168,
+   "analysed_at": "2026-11-23T11:38:05.685Z"
+  },
+  "rf02": {
+   "score": 84,
+   "intent": "ready_to_buy",
+   "summary": "Partner at a 18-person architecture practice in Oxford, out of contract on copper broadband and frustrated by slow CAD uploads, ready to move now.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49 staff (18 stated in message)"
+    },
+    {
+     "label": "Current provider",
+     "value": "Business broadband on copper"
+    },
+    {
+     "label": "Contract status",
+     "value": "Out of contract"
+    },
+    {
+     "label": "Role",
+     "value": "Partner"
+    },
+    {
+     "label": "Postcode",
+     "value": "OX1 1BY (Oxford, within OX service area)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Architects practice with 18 staff and client CAD work."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Message states 18 staff."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "neutral",
+     "detail": "Postcode OX1 is in the OX service area, but full-fibre build coverage at this address has not been checked."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Out of contract, so free to move immediately."
+    },
+    {
+     "factor": "Talking to a decision maker",
+     "impact": "positive",
+     "detail": "Lead is the Partner."
+    }
+   ],
+   "missing_info": [
+    "Confirm full-fibre is available at the Oxford address",
+    "Confirm upload speed needs and number of users on CAD work",
+    "Confirm budget and whether a leased line is needed"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Ben Carter straight away, confirm full-fibre availability at OX1 1BY, and open by acknowledging the slow CAD uploads to clients.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 11129,
+   "analysed_at": "2026-11-23T11:38:08.646Z"
+  },
+  "rf03": {
+   "score": 85,
+   "intent": "ready_to_buy",
+   "summary": "Practice Manager at a three-site veterinary group in RG1 (Reading) wants one provider and a private network between clinics, with contracts ending in 3 to 6 months.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "50-249 staff"
+    },
+    {
+     "label": "Current provider",
+     "value": "Mixed across 3 sites"
+    },
+    {
+     "label": "Contract end",
+     "value": "3-6 months"
+    },
+    {
+     "label": "Service needed",
+     "value": "Leased line with private network between sites"
+    },
+    {
+     "label": "Locations",
+     "value": "Three clinics (postcode RG1 3EU, Reading)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Veterinary practice with three clinics, clearly a commercial organisation."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Company size given as 50-249."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "neutral",
+     "detail": "RG postcode is in the service area, but build availability for all three sites has not been confirmed."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Current contracts end in 3-6 months, inside the window."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "neutral",
+     "detail": "Practice Manager may influence the decision but may not hold final sign-off; this is unconfirmed."
+    }
+   ],
+   "missing_info": [
+    "Addresses of the three clinics to check build availability",
+    "Whether the Practice Manager can sign off the contract",
+    "Exact contract end dates for each site",
+    "Bandwidth and budget requirements"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Fiona Mackenzie today, confirm the three clinic addresses for leased line availability, and ask who signs off the contract.",
+    "within_hours": 2
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 14906,
+   "analysed_at": "2026-11-23T11:38:12.424Z"
+  },
+  "rf04": {
+   "score": 12,
+   "intent": "not_a_fit",
+   "summary": "Sole trader photographer working from home on a residential line, with 1-9 staff and no known contract end date, so it fails the business and staff-size criteria.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "1-9"
+    },
+    {
+     "label": "Current provider",
+     "value": "Home broadband"
+    },
+    {
+     "label": "Contract end",
+     "value": "Not sure"
+    },
+    {
+     "label": "Role",
+     "value": "Sole trader"
+    },
+    {
+     "label": "Postcode",
+     "value": "SN1 4JX"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business or home user",
+     "impact": "negative",
+     "detail": "Current provider is home broadband and the lead says they work from home as a sole trader."
+    },
+    {
+     "factor": "Staff count",
+     "impact": "negative",
+     "detail": "Company size is 1-9, below the client's minimum of 10 staff."
+    },
+    {
+     "factor": "Contract timing",
+     "impact": "negative",
+     "detail": "Contract end date is not known, so the six-month window cannot be confirmed."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "The lead is the sole trader and so is the decision maker, but this does not offset the other gaps."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "SN1 postcode is inside the SN service area and the build area for Swindon."
+    }
+   ],
+   "missing_info": [
+    "Confirm whether the lead has any staff beyond themselves",
+    "Find out when the current home broadband contract ends",
+    "Check whether the SN1 4JX address is in the build area"
+   ],
+   "next_action": {
+    "type": "disqualify",
+    "detail": "Do not push a leased line or business plan; if the lead asks for faster upload, point them to a suitable residential or small-business option outside this client's ideal customer profile.",
+    "within_hours": 48
+   },
+   "confidence": 0.8,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 18418,
+   "analysed_at": "2026-11-23T11:38:15.936Z"
+  },
+  "rf05": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Andrew Pollard, Finance Director at Pollard Engineering (50-249 staff, GL postcode), is up for renewal within 3 months with Ridgeway Fibre and wants to discuss a 1 Gbps upgrade if the price is right.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "50-249 staff"
+    },
+    {
+     "label": "Current provider",
+     "value": "Ridgeway Fibre"
+    },
+    {
+     "label": "Contract ends",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Speed needed",
+     "value": "Leased line (1 Gbps mentioned in message)"
+    },
+    {
+     "label": "Role",
+     "value": "Finance Director (decision maker on cost)"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business customer",
+     "impact": "positive",
+     "detail": "Pollard Engineering is a company with 50-249 staff, meeting the 10+ staff criterion."
+    },
+    {
+     "factor": "Contract timing",
+     "impact": "positive",
+     "detail": "Contract ends within 3 months, inside the 6-month window."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "Finance Director is likely to be involved in or make the renewal decision, though sign-off on technical scope may sit elsewhere."
+    },
+    {
+     "factor": "Service area",
+     "impact": "positive",
+     "detail": "GL postcode is within the Gloucestershire service area."
+    },
+    {
+     "factor": "Price sensitivity",
+     "impact": "neutral",
+     "detail": "Interest in upgrading is conditional on price, so the offer needs to be competitive."
+    }
+   ],
+   "missing_info": [
+    "Whether the 1 Gbps need is a leased line or full-fibre, and the exact bandwidth required",
+    "Exact contract end date",
+    "Whether the build area covers GL7 1NQ",
+    "Current monthly spend and any budget range",
+    "Whether the Finance Director is the final decision maker or needs technical or board sign-off"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Andrew Pollard today, confirm the contract end date and bandwidth need, and open with a renewal offer for a 1 Gbps service.",
+    "within_hours": 2
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 3737,
+   "analysed_at": "2026-11-23T11:38:23.823Z"
+  },
+  "rf06": {
+   "score": 45,
+   "intent": "early_research",
+   "summary": "Office Manager at a 10-49 staff recruitment firm in SN2 is exploring options for an office move, but the contract has about a year left, outside the six-month window.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49"
+    },
+    {
+     "label": "Current provider",
+     "value": "Business broadband"
+    },
+    {
+     "label": "Contract ends",
+     "value": "6-12 months"
+    },
+    {
+     "label": "Postcode",
+     "value": "SN2 2PL"
+    },
+    {
+     "label": "Trigger",
+     "value": "Office move, requested by the MD"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Harding Recruitment is a company with 10-49 staff, so it meets the business and size criteria."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "positive",
+     "detail": "SN2 is in the Swindon SN postcode area the client serves."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "negative",
+     "detail": "The form says 6-12 months and the message says a year left, so the contract falls outside the six-month criterion."
+    },
+    {
+     "factor": "Talking to a decision maker",
+     "impact": "neutral",
+     "detail": "The enquirer is an Office Manager passing on an MD's request, so the MD is not yet involved directly."
+    },
+    {
+     "factor": "Clear buying signal",
+     "impact": "positive",
+     "detail": "An office move is a real trigger for a connectivity change, but timing is at least six months away."
+    }
+   ],
+   "missing_info": [
+    "Date of the office move and whether the new site needs a new line",
+    "Exact contract end date with current provider",
+    "Whether the MD wants to be involved in the decision",
+    "Required speed, as the enquirer is not sure"
+   ],
+   "next_action": {
+    "type": "nurture",
+    "detail": "Send a short email to Lucy referencing the office move and offering a call once the move date and contract end date are confirmed, asking what the MD wants to see first.",
+    "within_hours": 48
+   },
+   "confidence": 0.7,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 7596,
+   "analysed_at": "2026-11-23T11:38:27.683Z"
+  },
+  "rf07": {
+   "score": 4,
+   "intent": "spam",
+   "summary": "Unsolicited SEO vendor pitch with a prompt-injection attempt, postcode E1 is outside the service area, and the company has 1-9 staff.",
+   "facts": [
+    {
+     "label": "Postcode",
+     "value": "E1 6AN (London, outside service area)"
+    },
+    {
+     "label": "Company size",
+     "value": "1-9"
+    },
+    {
+     "label": "Role",
+     "value": "Director"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Spam or manipulation attempt",
+     "impact": "negative",
+     "detail": "The message tries to override scoring instructions and offers unsolicited SEO backlinks, which is a vendor pitch, not a broadband enquiry."
+    },
+    {
+     "factor": "Outside service area",
+     "impact": "negative",
+     "detail": "Postcode E1 is in East London, not SN, OX, RG or GL."
+    },
+    {
+     "factor": "Company size",
+     "impact": "negative",
+     "detail": "Stated company size is 1-9 staff, below the 10-staff minimum."
+    },
+    {
+     "factor": "Contract timing",
+     "impact": "negative",
+     "detail": "Contract end date is not sure, so the six-month window is unknown."
+    }
+   ],
+   "missing_info": [],
+   "next_action": {
+    "type": "disqualify",
+    "detail": "Do not reply to the SEO pitch; close the lead as spam and flag the injection attempt to the agency.",
+    "within_hours": 72
+   },
+   "confidence": 0.95,
+   "priority": "low",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 10035,
+   "analysed_at": "2026-11-23T11:38:30.122Z"
+  },
+  "rf08": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Managing Partner at a 26-person accountancy in Oxford (OX4) whose FTTC contract ends within 3 months and who wants business broadband to fix Teams call freezing.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49 staff (message says 26)"
+    },
+    {
+     "label": "Current provider",
+     "value": "FTTC broadband"
+    },
+    {
+     "label": "Contract ends",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Speed needed",
+     "value": "Business broadband"
+    },
+    {
+     "label": "Role",
+     "value": "Managing Partner"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Osei Accountancy is a named business with 26 staff, well above the 10-staff minimum."
+    },
+    {
+     "factor": "Staff count",
+     "impact": "positive",
+     "detail": "Message states 26 staff, which meets the 10 or more criterion."
+    },
+    {
+     "factor": "Build area",
+     "impact": "positive",
+     "detail": "OX4 is in the OX postcode area, which Ridgeway covers in Oxfordshire."
+    },
+    {
+     "factor": "Contract timing",
+     "impact": "positive",
+     "detail": "Current contract ends within 3 months, inside the 6-month window."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "Richard Osei is the Managing Partner."
+    }
+   ],
+   "missing_info": [
+    "Confirm the in-build status of the OX4 address",
+    "Confirm the exact number of staff (form says 10-49, message says 26)",
+    "Preferred speed and whether a leased line is needed",
+    "Exact contract end date and current monthly spend",
+    "Whether the Teams issue is purely a connection problem or also a router or cabling issue"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Richard Osei today, open by referring to the Teams calls freezing during tax season and ask about his current contract end date and whether the office address is in the build area.",
+    "within_hours": 2
+   },
+   "confidence": 0.85,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 14327,
+   "analysed_at": "2026-11-23T11:38:34.414Z"
+  },
+  "rf09": {
+   "score": 62,
+   "intent": "early_research",
+   "summary": "Owner of a 10-49 staff dental lab in SN14 (Chippenham area) asking whether full fibre is available on their industrial estate, with a contract ending in 3-6 months.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49 staff"
+    },
+    {
+     "label": "Contract ends",
+     "value": "3-6 months"
+    },
+    {
+     "label": "Role",
+     "value": "Owner"
+    },
+    {
+     "label": "Postcode",
+     "value": "SN14 0AB"
+    },
+    {
+     "label": "Enquiry",
+     "value": "Asks if full fibre is available on their industrial estate in Chippenham"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Mills Dental Lab is a commercial dental lab with 10-49 staff."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Company size is given as 10-49, which meets the minimum, though the exact number is unknown."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Contract ends in 3-6 months, inside the qualifying window."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "Karen Mills says her role is Owner."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "negative",
+     "detail": "SN14 is within the SN service area, but the lead asks about availability, so it is not confirmed that the premises are in a build area. Chippenham is also outside the client's named towns of Swindon and Oxfordshire, though the SN postcode is in scope."
+    }
+   ],
+   "missing_info": [
+    "Confirm the full postcode or address is in the build area",
+    "Exact staff numbers",
+    "Required speed and whether they need leased line or full fibre",
+    "Preferred timeline for switching given the 3-6 month contract end",
+    "Current provider and contract end date"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Karen Mills on the given number, confirm the exact address is in the build area, then ask about staff numbers, required speed and her contract end date before proposing a switch.",
+    "within_hours": 4
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 18190,
+   "analysed_at": "2026-11-23T11:38:38.278Z"
+  },
+  "rf10": {
+   "score": 62,
+   "intent": "ready_to_buy",
+   "summary": "Mark Hollis at Vantage Self Storage (10-49 staff) needs a proper line for a new Newbury site opening in January, currently on 4G and out of contract, but he is a site manager, not a confirmed decision maker.",
+   "facts": [
+    {
+     "label": "Company",
+     "value": "Vantage Self Storage"
+    },
+    {
+     "label": "Company size",
+     "value": "10-49"
+    },
+    {
+     "label": "Current provider",
+     "value": "4G router"
+    },
+    {
+     "label": "Contract status",
+     "value": "Out of contract"
+    },
+    {
+     "label": "Speed needed",
+     "value": "Business broadband"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Vantage Self Storage is a business with a commercial site and CCTV and access control needs."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Company size is given as 10-49, which meets the threshold."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "positive",
+     "detail": "RG14 is in the RG postcode area, which is in the service area. Build coverage for this specific address still needs checking."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "negative",
+     "detail": "He is out of contract, so there is no fixed end date, but this means no contract is holding him to a competitor and he can switch now."
+    },
+    {
+     "factor": "Talking to a decision maker",
+     "impact": "negative",
+     "detail": "His role is Site Manager. He may influence the decision but may not be the budget holder."
+    }
+   ],
+   "missing_info": [
+    "Whether he is the decision maker or who signs off on the budget",
+    "Whether the Newbury address is in the build area",
+    "Expected monthly budget and required speed",
+    "Installation lead time against the January opening date",
+    "Number of staff at the Newbury site specifically"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Mark Hollis today, confirm the Newbury address can be built, check the January opening date against 30 to 60 working day installation, and ask who else signs off the decision.",
+    "within_hours": 4
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 3955,
+   "analysed_at": "2026-11-23T11:38:42.233Z"
+  },
+  "rf11": {
+   "score": 62,
+   "intent": "early_research",
+   "summary": "Julie Barton, IT Lead at Barton Care Homes (50-249 staff, OX26 postcode in Oxfordshire), is an existing Ridgeway customer asking about renewal options with a contract ending in 6-12 months.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "50-249"
+    },
+    {
+     "label": "Current provider",
+     "value": "Ridgeway Fibre"
+    },
+    {
+     "label": "Contract ends",
+     "value": "6-12 months"
+    },
+    {
+     "label": "Speed needed",
+     "value": "Leased line"
+    },
+    {
+     "label": "Role",
+     "value": "IT Lead"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business customer with 10 or more staff",
+     "impact": "positive",
+     "detail": "Company size 50-249 meets the business and staff criteria."
+    },
+    {
+     "factor": "In the service area",
+     "impact": "positive",
+     "detail": "OX26 is an Oxfordshire postcode area, which falls within the OX service area and build area to be confirmed."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "Role is IT Lead, which is likely to influence or make the renewal decision, though this is not confirmed."
+    },
+    {
+     "factor": "Contract timing",
+     "impact": "negative",
+     "detail": "Contract ends in 6-12 months, so it may fall outside the six-month window in the criteria."
+    },
+    {
+     "factor": "Existing relationship",
+     "impact": "neutral",
+     "detail": "Happy with current service, which makes retention likely but gives less of a new-sale signal."
+    }
+   ],
+   "missing_info": [
+    "Whether the OX26 address is in the build area",
+    "Whether the contract ends within six months",
+    "Whether Julie holds final decision authority over the renewal",
+    "Budget and preferred term length for the leased line"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Julie to thank her for the feedback, confirm her renewal options and timing, and check whether the contract ends within six months and whether she makes the final decision.",
+    "within_hours": 24
+   },
+   "confidence": 0.6,
+   "priority": "medium",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 7475,
+   "analysed_at": "2026-11-23T11:38:45.754Z"
+  },
+  "rf12": {
+   "score": 88,
+   "intent": "ready_to_buy",
+   "summary": "Swindon print business with 12 staff, contract ending within 3 months, director asking for the fastest install at Greenbridge; phone number only.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49 (message says 12 staff)"
+    },
+    {
+     "label": "Contract ends",
+     "value": "Within 3 months"
+    },
+    {
+     "label": "Role",
+     "value": "Director"
+    },
+    {
+     "label": "Location",
+     "value": "Postcode SN3 3HZ (Swindon)"
+    },
+    {
+     "label": "Need",
+     "value": "Fast connection for large daily customer files; asked about Greenbridge"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not home user",
+     "impact": "positive",
+     "detail": "TM Print & Design is a print shop with staff and daily customer file transfers."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Says 12 staff in the message, matching the 10-49 band."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "neutral",
+     "detail": "Postcode SN is in the service area, but build coverage at Greenbridge is not confirmed and needs checking."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Contract ends within 3 months, which is a tight timeline."
+    },
+    {
+     "factor": "Decision maker",
+     "impact": "positive",
+     "detail": "Role given as Director."
+    }
+   ],
+   "missing_info": [
+    "Confirm Greenbridge is in the build area for SN3 3HZ",
+    "Confirm the exact contract end date and current provider",
+    "Confirm the required speed (500 Mbps or 1 Gbps or 2 Gbps) and whether a leased line is needed",
+    "Confirm the installation window fits a 30 to 60 working day build before contract end"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Tariq Mahmood on the number given and open by confirming Greenbridge availability for the print shop, then ask for the current contract end date.",
+    "within_hours": 1
+   },
+   "confidence": 0.8,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 11020,
+   "analysed_at": "2026-11-23T11:38:49.300Z"
+  },
+  "rf13": {
+   "score": 74,
+   "intent": "comparing_options",
+   "summary": "Co-founder of a brewery and taproom in GL54 (near Stow) with 10-49 staff, whose rural broadband contract ends in 3-6 months and whose card machines and online orders keep failing; fits the criteria but build coverage at the site is unconfirmed.",
+   "facts": [
+    {
+     "label": "Company size",
+     "value": "10-49 staff (about 30 in summer)"
+    },
+    {
+     "label": "Current provider",
+     "value": "Rural broadband"
+    },
+    {
+     "label": "Contract ends",
+     "value": "In 3-6 months"
+    },
+    {
+     "label": "Role",
+     "value": "Co-founder"
+    },
+    {
+     "label": "Location",
+     "value": "Postcode GL54 2AT, asked about rural sites near Stow"
+    }
+   ],
+   "reasons": [
+    {
+     "factor": "Business, not a home user",
+     "impact": "positive",
+     "detail": "Brewery and taproom with 30 staff in summer, so clearly a commercial site."
+    },
+    {
+     "factor": "10 or more staff",
+     "impact": "positive",
+     "detail": "Company size is 10-49, and the message says about 30 staff in summer."
+    },
+    {
+     "factor": "Contract ends within 6 months",
+     "impact": "positive",
+     "detail": "Contract ends in 3-6 months, which sits inside the window."
+    },
+    {
+     "factor": "In the build area",
+     "impact": "negative",
+     "detail": "Postcode GL54 is in the GL area, but the lead asks whether rural sites are reached, so coverage at this site is unconfirmed."
+    },
+    {
+     "factor": "Talking to a decision maker",
+     "impact": "positive",
+     "detail": "Co-founder is a senior decision maker, though budget sign-off is not stated."
+    }
+   ],
+   "missing_info": [
+    "Whether the GL54 site is inside the build area",
+    "Which speed or product they need, as they answered not sure",
+    "Exact contract end date",
+    "Budget and whether they need a leased line or full-fibre"
+   ],
+   "next_action": {
+    "type": "call_now",
+    "detail": "Call Eleanor Hayes today, confirm the GL54 address is in the build area, and open by asking about the card machine and online order failures before discussing speeds and contract end date.",
+    "within_hours": 4
+   },
+   "confidence": 0.7,
+   "priority": "high",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "ms": 15203,
+   "analysed_at": "2026-11-23T11:38:53.485Z"
+  }
+ },
+ "drafts": {
+  "bs01": {
+   "channel": "sms",
+   "subject": "",
+   "body": "Hi Helen, thanks for getting in touch. Yes, we offer 0% finance over 5 years on solar and battery systems, and the home survey is free. To see whether the numbers work for your roof, you can book a survey here: https://book.example.com/brightside-survey Priya from Brightside Solar",
+   "rationale": "Helen asked directly about finance and is ready to buy within 3 months, so the SMS answers that and points her to the free survey booking link.",
+   "facts_used": [
+    "0% finance over 5 years",
+    "free home survey",
+    "booking link",
+    "homeowner with £150-£250 monthly bill",
+    "wants solar and battery within 3 months",
+    "south-west roof"
+   ],
+   "model": "claude-haiku-5-5"
+  },
+  "bs02": {
+   "channel": "email",
+   "subject": "Your free home survey, Mohammed",
+   "body": "Hi Mohammed,\n\nThanks for getting in touch. A five-bedroom home with two EVs and people working from home is a good fit for solar and a battery, and a south-facing roof is a strong start.\n\nI can't promise a fitting date until we've seen the roof, but the next step is a free home survey. You can pick a slot here: https://book.example.com/brightside-survey\n\nSystems like this typically cost £6,000 to £14,000 installed, and we offer 0% finance over 5 years. Our installers are MCS certified.\n\nIf it's easier, reply with a good time to call and I'll ring you.\n\nPriya\nBrightside Solar",
+   "rationale": "No email address is on file, only a phone number, so this should be sent by SMS or used as a call script until an email is captured; it's drafted to get him to book the free survey quickly as he has a competing quote that can't fit before February.",
+   "facts_used": [
+    "Five-bedroom house with two EVs and working from home",
+    "South-facing roof",
+    "Wants to install as soon as possible",
+    "Competing quote cannot fit before February",
+    "Free home survey",
+    "Booking link",
+    "Typical system cost £6,000 to £14,000 installed",
+    "0% finance over 5 years",
+    "MCS certified installers"
+   ],
+   "model": "claude-haiku-5-5"
+  },
+  "hd01": {
+   "channel": "sms",
+   "subject": "",
+   "body": "Hi Lauren, thanks for getting in touch. Invisalign can often fit around a September wedding, but the timing depends on your treatment plan, so the best next step is a free 20-minute consultation to check. Book here: https://book.example.com/harbour-consultation Jordan",
+   "rationale": "Lauren asked whether there is enough time before her September wedding, so the SMS answers that honestly without promising a result, then offers the free consultation booking link as the single next step.",
+   "facts_used": [
+    "Treatment interest: Invisalign",
+    "Wedding next September",
+    "Free 20-minute consultation",
+    "Booking link provided",
+    "Phone number given, no email"
+   ],
+   "model": "claude-haiku-5-5"
+  },
+  "rf01": {
+   "channel": "email",
+   "subject": "Resilient leased line for your Swindon warehouse",
+   "body": "Hi Sian,\n\nThanks for getting in touch. Losing the line several times a week is a serious problem for a warehouse running scanners and a cloud WMS, and it's understandable you want something resilient with a backup in place before your current contract ends in the next three months.\n\nWe provide dedicated leased lines from £295 a month on 36-month terms, and we can look at a backup路线 alongside the main circuit so one fault doesn't stop operations. Installation normally takes 30 to 60 working days, so starting now makes sense.\n\nThe next step is a short site survey to confirm what your building can support and the bandwidth you need. You can book a time here: https://book.example.com/ridgeway-site-survey\n\nIf it's easier, reply with a couple of times that suit and I'll arrange a call.\n\nPriya\nRidgeway Fibre",
+   "rationale": "Sian has a clear, time-sensitive need (3-month contract end, frequent drops) and has asked for a resilient leased line, so a prompt survey booking is the right next step.",
+   "facts_used": [
+    "Operations Director at Kestrel Logistics Ltd",
+    "120-staff warehouse with scanners and cloud WMS",
+    "Current FTTC line drops several times a week",
+    "Contract ends within 3 months",
+    "Wants a leased line with backup",
+    "Leased lines from £295 a month on 36-month terms",
+    "Installation 30 to 60 working days",
+    "Site survey booking link"
+   ],
+   "model": "claude-haiku-5-5"
+  }
+ }
+}
