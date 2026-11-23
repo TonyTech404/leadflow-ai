@@ -1,0 +1,25 @@
+{
+  "name": "leadflow-ai",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run dev -w api & npm run dev -w web",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm test --workspaces --if-present",
+    "db:migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
+    "deploy": "npm run build -w web && wrangler deploy"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.55.0",
+    "postgres": "^4.1.1",
+    "wrangler": "^4.166.0"
+  }
+}
