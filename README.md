@@ -2,7 +2,7 @@
 
 A lead management platform for a growth agency that runs paid campaigns for many clients. Leads come in from forms, ads and an API. Claude qualifies each one in seconds and drafts a first reply that a person approves. Automations route the lead and sync it to GoHighLevel. The agency sees, across every client, who is still waiting for an answer.
 
-**Live demo: [leadflow.buildwithanthony.com](https://leadflow.buildwithanthony.com)** · [Demo video](https://github.com/TonyTech404/leadflow-ai/releases/latest) · [API reference](https://leadflow.buildwithanthony.com/developers)
+**Live demo: [leadflow.buildwithanthony.com](https://leadflow.buildwithanthony.com)** · [Walkthrough video (1:46, narrated)](https://github.com/TonyTech404/leadflow-ai/releases/download/v1.0.0/leadflow-walkthrough.mp4) · [API reference](https://leadflow.buildwithanthony.com/developers)
 
 ![Agency overview: hot leads still waiting for a first reply, across all clients](docs/screenshots/overview.png)
 
@@ -127,7 +127,7 @@ CI runs all of this on every push against a dedicated Neon branch. It also build
 ## Deploy
 
 ```bash
-npm run deploy                # builds the web app, then wrangler deploy
+npm run deploy                # builds the web app, then wrangler deploy (stamps the commit into /api/health)
 ```
 
 Secrets are set with `wrangler secret put`: `DATABASE_URL`, `ANTHROPIC_API_KEY`, `CRON_SECRET` and `WEBHOOK_SECRET`. The database connection goes through a Hyperdrive config (see `wrangler.jsonc`). The scheduled job is `.github/workflows/cron.yml`, which needs a `CRON_SECRET` repository secret.

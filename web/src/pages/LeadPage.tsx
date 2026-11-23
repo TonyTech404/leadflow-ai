@@ -429,7 +429,7 @@ export function LeadPage() {
           </section>
         </div>
 
-        <aside className="space-y-4 lg:sticky lg:top-20">
+        <aside className="space-y-4">
           <Analysis
             lead={l}
             canWrite={canWrite}
